@@ -1,0 +1,1251 @@
+text,intent,feature,parameters,expected_output
+Is my shared WiFi secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Am I safe when connecting to this public hotel WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can you check if my router connection is safe to use?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this work network hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+Audit the security setup of my WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my airport WiFi connection fully encrypted?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my guest WiFi secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this public WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this wireless network has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+Verify the safety and privacy of my shared WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+"Does my router connection use WPA2, WPA3, or something else?",0,WiFi Checker,"security_level,encryption_type",N/A
+Please test my wireless current connection for leaks.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my caf?? WiFi secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is it dangerous to browse the web on this caf?? WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can malicious actors intercept my data on this cellular hotspot?,0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my guest WiFi have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my home network for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Can malicious actors intercept my data on this current connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is it dangerous to browse the web on this hotel WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this airport WiFi hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+Audit the security setup of my airport WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my local internet.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my airport WiFi secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this caf?? WiFi hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my current connection have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there any cyber threats on my current airport WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Verify the safety and privacy of my office network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my WiFi for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Am I safe when connecting to this public unsecured network?,0,WiFi Checker,"security_level,encryption_type",N/A
+"Does my local internet use WPA2, WPA3, or something else?",0,WiFi Checker,"security_level,encryption_type",N/A
+Is the shared WiFi I am currently connected to compromised?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is it dangerous to browse the web on this current connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this current connection.,0,WiFi Checker,"security_level,encryption_type",N/A
+Please test my wireless cellular hotspot for leaks.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this unsecured network hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my WiFi have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my cellular hotspot.,0,WiFi Checker,"security_level,encryption_type",N/A
+Detect if there are unauthorized devices on my work network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Should I activate a VPN on this specific office network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there any cyber threats on my current router connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Detect if there are unauthorized devices on my local internet.,0,WiFi Checker,"security_level,encryption_type",N/A
+Please test my wireless broadband network for leaks.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is someone intercepting my traffic on this current connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my office network router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my office network.,0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my cellular hotspot have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this guest WiFi has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my current connection router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+Should I activate a VPN on this specific airport WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my public WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this shared WiFi has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my shared WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there any cyber threats on my current current connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my work network for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Can you check if my current connection is safe to use?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this public WiFi hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my router connection password strong or weak?,0,WiFi Checker,"security_level,encryption_type",N/A
+Should I activate a VPN on this specific current connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this home network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Can you check if my public WiFi is safe to use?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can malicious actors intercept my data on this router connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is it dangerous to browse the web on this broadband network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my local internet router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this public WiFi has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+Should I activate a VPN on this specific unsecured network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my cellular hotspot.,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this router connection.,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this caf?? WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this current connection hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+Verify the safety and privacy of my caf?? WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my airport WiFi have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my router connection router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my unsecured network for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my local internet.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my public WiFi password strong or weak?,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there any cyber threats on my current public WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my caf?? WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is someone intercepting my traffic on this WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Detect if there are unauthorized devices on my airport WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my shared WiFi connection fully encrypted?,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there any cyber threats on my current local internet?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my hotel WiFi secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+"Does my hotel WiFi use WPA2, WPA3, or something else?",0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my wireless network have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my guest WiFi for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my unsecured network router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+What kind of encryption does my local internet have?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is it dangerous to browse the web on this home network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this hotel WiFi has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is this shared WiFi hotspot prone to snooping?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is someone intercepting my traffic on this office network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my airport WiFi for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Audit the security setup of my hotel WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is someone intercepting my traffic on this guest WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can malicious actors intercept my data on this wireless network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this office network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my wireless network.,0,WiFi Checker,"security_level,encryption_type",N/A
+"Does my unsecured network use WPA2, WPA3, or something else?",0,WiFi Checker,"security_level,encryption_type",N/A
+Is it dangerous to browse the web on this public WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can you check if my cellular hotspot is safe to use?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my local internet connection fully encrypted?,0,WiFi Checker,"security_level,encryption_type",N/A
+How secure is my local work network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my office network secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can you check if my guest WiFi is safe to use?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this unsecured network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my local internet secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my work network secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Detect if there are unauthorized devices on my unsecured network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my shared WiFi router vulnerable to network exploits?,0,WiFi Checker,"security_level,encryption_type",N/A
+Detect if there are unauthorized devices on my broadband network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my caf?? WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Am I safe when connecting to this public guest WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my public WiFi for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this current connection has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+Am I safe when connecting to this public shared WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my public WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my guest WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my shared WiFi for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+Run a quick security check on my unsecured network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there any cyber threats on my current unsecured network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my unsecured network secure from hackers?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for man-in-the-middle attacks on this wireless network.,0,WiFi Checker,"security_level,encryption_type",N/A
+Is someone intercepting my traffic on this public WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my caf?? WiFi for any vulnerabilities.,0,WiFi Checker,"security_level,encryption_type",N/A
+"Does my current connection use WPA2, WPA3, or something else?",0,WiFi Checker,"security_level,encryption_type",N/A
+Analyze the network health of my hotel WiFi.,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if this caf?? WiFi has any security flaws.,0,WiFi Checker,"security_level,encryption_type",N/A
+How secure is my local hotel WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+How secure is my local router connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi safe?,0,WiFi Checker,"security_level,encryption_type",N/A
+How do I check if my network is secure?,0,WiFi Checker,"security_level,encryption_type",N/A
+What encryption does my WiFi use?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi password strong enough?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if my WiFi is vulnerable,0,WiFi Checker,"security_level,encryption_type",N/A
+Is someone using my WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+How do I secure my WiFi network?,0,WiFi Checker,"security_level,encryption_type",N/A
+What's WPA2 vs WPA3?,0,WiFi Checker,"security_level,encryption_type",N/A
+Should I hide my SSID?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my 2.4GHz WiFi less secure than 5GHz?,0,WiFi Checker,"security_level,encryption_type",N/A
+How can I improve my WiFi security?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check my network encryption,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi connection safe?,0,WiFi Checker,"security_level,encryption_type",N/A
+What's the best WiFi standard?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check for WiFi vulnerabilities,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my wireless network open?,0,WiFi Checker,"security_level,encryption_type",N/A
+Can I see who's connected to my WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+How do I change my WiFi password?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi broadcasting my name?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check WiFi security settings,0,WiFi Checker,"security_level,encryption_type",N/A
+Scan my WiFi network for vulnerabilities,0,WiFi Checker,"security_level,encryption_type",N/A
+Tell me about my WiFi security,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi network protected?,0,WiFi Checker,"security_level,encryption_type",N/A
+How secure is my WiFi connection?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check my network for open ports,0,WiFi Checker,"security_level,encryption_type",N/A
+What devices are connected to my WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi using the best encryption?,0,WiFi Checker,"security_level,encryption_type",N/A
+How do I make my WiFi more secure?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if my WiFi broadcast name is hidden,0,WiFi Checker,"security_level,encryption_type",N/A
+What's the difference between WPA and WPA2?,0,WiFi Checker,"security_level,encryption_type",N/A
+Should I use WPA3 if available?,0,WiFi Checker,"security_level,encryption_type",N/A
+How often should I change my WiFi password?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi name exposing my router model?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check if my WiFi is broadcasting on 5GHz,0,WiFi Checker,"security_level,encryption_type",N/A
+Are there unknown devices on my WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+How do I disable WPS on my router?,0,WiFi Checker,"security_level,encryption_type",N/A
+What's the signal strength of my WiFi?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is my WiFi vulnerable to brute force attacks?,0,WiFi Checker,"security_level,encryption_type",N/A
+Check my WiFi for MAC address filtering,0,WiFi Checker,"security_level,encryption_type",N/A
+How do I set up a guest WiFi network?,0,WiFi Checker,"security_level,encryption_type",N/A
+Is the SSL certificate for netflix.com valid?,1,SSL Validator,"domain,cert_validity",N/A
+Check if the site I am browsing is using proper web encryption.,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan apple.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan paypal.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Does unknown websites use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of amazon.com.,1,SSL Validator,"domain,cert_validity",N/A
+Does yahoo.com use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan netflix.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of facebook.com.,1,SSL Validator,"domain,cert_validity",N/A
+Does this website have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Test if twitter.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Is it safe to enter my data on twitter.com?,1,SSL Validator,"domain,cert_validity",N/A
+Does wikipedia.org have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of mybank.com.,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for the site I am browsing.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for reddit.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Is it safe to enter my data on github.com?,1,SSL Validator,"domain,cert_validity",N/A
+Does google.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does github.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does microsoft.com use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for this website expired?,1,SSL Validator,"domain,cert_validity",N/A
+Does unknown websites have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for paypal.com expired?,1,SSL Validator,"domain,cert_validity",N/A
+Does yahoo.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does amazon.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Check if netflix.com is using proper web encryption.,1,SSL Validator,"domain,cert_validity",N/A
+Is it safe to enter my data on facebook.com?,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to apple.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Test if github.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of twitter.com.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for google.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan reddit.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan mybank.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of mybank.com.,1,SSL Validator,"domain,cert_validity",N/A
+Does facebook.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan twitter.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for reddit.com valid?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for an online shop valid?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for github.com expired?,1,SSL Validator,"domain,cert_validity",N/A
+Does netflix.com have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does wikipedia.org have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of github.com.,1,SSL Validator,"domain,cert_validity",N/A
+Is facebook.com prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Is it safe to enter my data on reddit.com?,1,SSL Validator,"domain,cert_validity",N/A
+Is github.com prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan this website to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of this website.,1,SSL Validator,"domain,cert_validity",N/A
+Does mybank.com have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does amazon.com have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does apple.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does twitter.com have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Test if facebook.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Does an online shop use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Is amazon.com prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for the site I am browsing valid?,1,SSL Validator,"domain,cert_validity",N/A
+Is the site I am browsing prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of paypal.com.,1,SSL Validator,"domain,cert_validity",N/A
+Test if this website has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Is it safe to enter my data on mybank.com?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for the site I am browsing expired?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for an online shop expired?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of the site I am browsing.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for facebook.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for mybank.com.,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to netflix.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Test if unknown websites has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Test if an online shop has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan github.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan amazon.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan the site I am browsing to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Does github.com use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Does an online shop have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to microsoft.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of google.com.,1,SSL Validator,"domain,cert_validity",N/A
+Test if google.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for this website.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for paypal.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Does mybank.com use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for yahoo.com.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for mybank.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of twitter.com.,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of an online shop.,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan yahoo.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to paypal.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan microsoft.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Is paypal.com prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of an online shop.,1,SSL Validator,"domain,cert_validity",N/A
+Test if amazon.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to an online shop private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Does google.com use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Test if mybank.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of microsoft.com.,1,SSL Validator,"domain,cert_validity",N/A
+Does unknown websites have a valid security certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Does google.com have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Check if reddit.com is using proper web encryption.,1,SSL Validator,"domain,cert_validity",N/A
+Audit the HTTPS and SSL settings of google.com.,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of microsoft.com.,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for this website valid?,1,SSL Validator,"domain,cert_validity",N/A
+Is wikipedia.org prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Does the site I am browsing use a secure HTTPS connection?,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for github.com.,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of netflix.com.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for amazon.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for the site I am browsing is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Is it safe to enter my data on yahoo.com?,1,SSL Validator,"domain,cert_validity",N/A
+Check if microsoft.com is using proper web encryption.,1,SSL Validator,"domain,cert_validity",N/A
+Test if netflix.com has an untrusted certificate authority.,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of facebook.com.,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for yahoo.com expired?,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for github.com is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for wikipedia.org.,1,SSL Validator,"domain,cert_validity",N/A
+Check if this website is using proper web encryption.,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to mybank.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for unknown websites is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for unknown websites.,1,SSL Validator,"domain,cert_validity",N/A
+Does twitter.com have an active SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of wikipedia.org.,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for microsoft.com.,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to reddit.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Is the connection to yahoo.com private and secure?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate status of unknown websites.,1,SSL Validator,"domain,cert_validity",N/A
+Check if apple.com is using proper web encryption.,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for twitter.com expired?,1,SSL Validator,"domain,cert_validity",N/A
+Is an online shop prone to SSL stripping attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Can you scan facebook.com to see if its certificate is trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate details for facebook.com.,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate for apple.com expired?,1,SSL Validator,"domain,cert_validity",N/A
+Verify if the SSL certificate for wikipedia.org is self-signed.,1,SSL Validator,"domain,cert_validity",N/A
+Is this website's SSL certificate valid?,1,SSL Validator,"domain,cert_validity",N/A
+Check SSL certificate for google.com,1,SSL Validator,"domain,cert_validity",N/A
+Does this site have HTTPS?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate expired?,1,SSL Validator,"domain,cert_validity",N/A
+Verify the SSL certificate,1,SSL Validator,"domain,cert_validity",N/A
+Is this domain's SSL trust valid?,1,SSL Validator,"domain,cert_validity",N/A
+What does self-signed certificate mean?,1,SSL Validator,"domain,cert_validity",N/A
+How do I check certificate validity?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL chain complete?,1,SSL Validator,"domain,cert_validity",N/A
+Check certificate authenticity,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate revoked?,1,SSL Validator,"domain,cert_validity",N/A
+What's a certificate authority?,1,SSL Validator,"domain,cert_validity",N/A
+Is the certificate matched to domain?,1,SSL Validator,"domain,cert_validity",N/A
+Validate SSL certificate,1,SSL Validator,"domain,cert_validity",N/A
+Check HTTPS status,1,SSL Validator,"domain,cert_validity",N/A
+Is the website secure?,1,SSL Validator,"domain,cert_validity",N/A
+Does this URL have valid SSL?,1,SSL Validator,"domain,cert_validity",N/A
+Check certificate chain,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate trusted?,1,SSL Validator,"domain,cert_validity",N/A
+Verify HTTPS connection,1,SSL Validator,"domain,cert_validity",N/A
+Is facebook.com's SSL certificate valid?,1,SSL Validator,"domain,cert_validity",N/A
+Check the SSL certificate for amazon.com,1,SSL Validator,"domain,cert_validity",N/A
+What does HTTPS stand for?,1,SSL Validator,"domain,cert_validity",N/A
+How do I check SSL certificate details?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate from a trusted CA?,1,SSL Validator,"domain,cert_validity",N/A
+Does my website have a valid SSL?,1,SSL Validator,"domain,cert_validity",N/A
+What's the difference between SSL and TLS?,1,SSL Validator,"domain,cert_validity",N/A
+How long is my SSL certificate valid?,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate properly installed?,1,SSL Validator,"domain,cert_validity",N/A
+Check if the certificate has been tampered with,1,SSL Validator,"domain,cert_validity",N/A
+What's a wildcard SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Is the website using strong SSL encryption?,1,SSL Validator,"domain,cert_validity",N/A
+How do I get an SSL certificate for my site?,1,SSL Validator,"domain,cert_validity",N/A
+Check for mixed content warnings,1,SSL Validator,"domain,cert_validity",N/A
+Is the SSL certificate pinned?,1,SSL Validator,"domain,cert_validity",N/A
+What cipher suite is the site using?,1,SSL Validator,"domain,cert_validity",N/A
+Is the certificate issued by Let's Encrypt?,1,SSL Validator,"domain,cert_validity",N/A
+How often should I renew my SSL certificate?,1,SSL Validator,"domain,cert_validity",N/A
+Check for SSL/TLS version compatibility,1,SSL Validator,"domain,cert_validity",N/A
+Is the website vulnerable to SSL strip attacks?,1,SSL Validator,"domain,cert_validity",N/A
+Find out if my login credential 'old_password' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'test_account@yahoo.com' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'my_banking_username' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'password2026'?,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'gmail_login'?,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'password2026'.,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'john.doe@gmail.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'password2026' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'my_secret_pass123'.,2,Breach Lookup,"credential,breach_status",N/A
+Is 'test_account@yahoo.com' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'my_personal_email' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Is 'old_password' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'john.doe@gmail.com' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'old_password' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'admin_account' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Has 'my_personal_email' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'user@email.com' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Is 'user@email.com' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'john.doe@gmail.com' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'my_banking_username'.,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'admin_account'.,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'user@email.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'corporate_login' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'my_personal_email' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'gmail_login'.,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'test_account@yahoo.com' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'my_secret_pass123'.,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'secret_phrase' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'my_secret_pass123' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'my_secret_pass123' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Has 'test_account@yahoo.com' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'test_account@yahoo.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'my_banking_username' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'my_banking_username'?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'john.doe@gmail.com'.,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'password2026' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Has 'corporate_login' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'corporate_login' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'gmail_login' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'admin_account'?,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'corporate_login'.,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'corporate_login'.,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'my_personal_email' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'secret_phrase'.,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'admin_account'?,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'test_account@yahoo.com' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'my_banking_username' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'gmail_login' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'my_personal_email'.,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'gmail_login' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'admin_account'?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'admin_account' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Has 'my_secret_pass123' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'my_banking_username' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'john.doe@gmail.com'.,2,Breach Lookup,"credential,breach_status",N/A
+Is 'my_secret_pass123' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'my_personal_email'?,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'my_personal_email' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Has 'gmail_login' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Has 'admin_account' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'gmail_login'?,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'corporate_login' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'gmail_login' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'old_password' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'my_personal_email' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'user@email.com'.,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'password2026' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'old_password'.,2,Breach Lookup,"credential,breach_status",N/A
+Has 'user@email.com' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'test_account@yahoo.com'.,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'john.doe@gmail.com' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'old_password'?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'my_banking_username'.,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'user@email.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'old_password' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'admin_account' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'user@email.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'my_personal_email' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'admin_account' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'gmail_login' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'gmail_login'.,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'secret_phrase'?,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'old_password' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'secret_phrase' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'test_account@yahoo.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'secret_phrase'.,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'password2026'?,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'corporate_login' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'corporate_login'?,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'my_secret_pass123' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'admin_account' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'secret_phrase'?,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'old_password' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'gmail_login'.,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'password2026' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Is 'secret_phrase' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Verify if my user account 'user@email.com' is still secure.,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'user@email.com' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Is 'password2026' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Has 'old_password' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email address 'test_account@yahoo.com' is in a data leak.,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'john.doe@gmail.com' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'my_banking_username'?,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'old_password'?,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'user@email.com' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'user@email.com' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'password2026' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'corporate_login'?,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'my_secret_pass123'?,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'password2026'.,2,Breach Lookup,"credential,breach_status",N/A
+Find out if my login credential 'john.doe@gmail.com' was exposed.,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'test_account@yahoo.com' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'password2026'.,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'corporate_login'.,2,Breach Lookup,"credential,breach_status",N/A
+Has my password 'my_banking_username' been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Is 'admin_account' part of any public credential dump?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'password2026'?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'secret_phrase'.,2,Breach Lookup,"credential,breach_status",N/A
+Did the HaveIBeenPwned database find 'john.doe@gmail.com'?,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'my_secret_pass123'.,2,Breach Lookup,"credential,breach_status",N/A
+Is my credential 'test_account@yahoo.com' floating around on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Check for recent password leaks involving 'my_personal_email'.,2,Breach Lookup,"credential,breach_status",N/A
+Has 'secret_phrase' been leaked in any known security breach?,2,Breach Lookup,"credential,breach_status",N/A
+Am I at risk if my email is 'gmail_login'?,2,Breach Lookup,"credential,breach_status",N/A
+Scan the dark web for leaks of 'user@email.com'.,2,Breach Lookup,"credential,breach_status",N/A
+Check the leak status of 'old_password'.,2,Breach Lookup,"credential,breach_status",N/A
+Was my account 'secret_phrase' compromised in any corporate hack?,2,Breach Lookup,"credential,breach_status",N/A
+Has anyone stolen the password for 'my_secret_pass123'?,2,Breach Lookup,"credential,breach_status",N/A
+Has my password been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my email is in a data breach,2,Breach Lookup,"credential,breach_status",N/A
+Was my account compromised?,2,Breach Lookup,"credential,breach_status",N/A
+Is my password on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Check for password leaks,2,Breach Lookup,"credential,breach_status",N/A
+Has this email been hacked?,2,Breach Lookup,"credential,breach_status",N/A
+Is my email in Have I Been Pwned?,2,Breach Lookup,"credential,breach_status",N/A
+Did my credentials leak in Equifax breach?,2,Breach Lookup,"credential,breach_status",N/A
+How do I check if my accounts were exposed?,2,Breach Lookup,"credential,breach_status",N/A
+Is my password safe?,2,Breach Lookup,"credential,breach_status",N/A
+Check if email appeared in breaches,2,Breach Lookup,"credential,breach_status",N/A
+Was my password in any data leak?,2,Breach Lookup,"credential,breach_status",N/A
+Is my email address compromised?,2,Breach Lookup,"credential,breach_status",N/A
+How many times has my password been breached?,2,Breach Lookup,"credential,breach_status",N/A
+Check password breach history,2,Breach Lookup,"credential,breach_status",N/A
+Is my data on the dark web?,2,Breach Lookup,"credential,breach_status",N/A
+Were my passwords leaked?,2,Breach Lookup,"credential,breach_status",N/A
+Check for account breaches,2,Breach Lookup,"credential,breach_status",N/A
+Is my account in any data breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check email breach status,2,Breach Lookup,"credential,breach_status",N/A
+Check breach status for my Gmail account,2,Breach Lookup,"credential,breach_status",N/A
+Is my password appearing in breach databases?,2,Breach Lookup,"credential,breach_status",N/A
+How do I know if my data was in a breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check which breaches affected my accounts,2,Breach Lookup,"credential,breach_status",N/A
+Was my email leaked in any major hack?,2,Breach Lookup,"credential,breach_status",N/A
+How often should I check for breaches?,2,Breach Lookup,"credential,breach_status",N/A
+What should I do if I'm in a breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my password is in the dark web,2,Breach Lookup,"credential,breach_status",N/A
+Is my social security number leaked?,2,Breach Lookup,"credential,breach_status",N/A
+Check my credit card breach status,2,Breach Lookup,"credential,breach_status",N/A
+Was I affected by the Yahoo breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check for Facebook data breaches,2,Breach Lookup,"credential,breach_status",N/A
+Is my LinkedIn account in a breach?,2,Breach Lookup,"credential,breach_status",N/A
+How many passwords have I leaked?,2,Breach Lookup,"credential,breach_status",N/A
+Check password breach notification service,2,Breach Lookup,"credential,breach_status",N/A
+Should I change my password after a breach?,2,Breach Lookup,"credential,breach_status",N/A
+Check if my Twitter account was hacked,2,Breach Lookup,"credential,breach_status",N/A
+Is my Amazon account in any breach database?,2,Breach Lookup,"credential,breach_status",N/A
+What's the most common reason for breaches?,2,Breach Lookup,"credential,breach_status",N/A
+Check for identity theft after a breach,2,Breach Lookup,"credential,breach_status",N/A
+Audit all app permissions on my phone regarding biometrics.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant biometrics permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my calendar.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke microphone access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested background location access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my phone state?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my location services?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my microphone.,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested microphone access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need nearby devices access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the calendar?,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding microphone.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need microphone access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my camera.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the camera?,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant nearby devices permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my microphone.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke call logs access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the biometrics?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my camera.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my calendar?,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke storage and files access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing SMS messages permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant calendar permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested phone state access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my calendar.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my contacts list.,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested biometrics access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my nearby devices.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke contacts list access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my biometrics?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my calendar.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke nearby devices access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding location services.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my biometrics.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the storage and files?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing background location permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my SMS messages.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant phone state permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my SMS messages.,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing location services permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need phone state access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my biometrics.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my contacts list?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my camera.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant background location permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested storage and files access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my call logs?,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need location services access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my storage and files.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my call logs.,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding phone state.,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my microphone.,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing nearby devices permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my background location?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my background location.,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my background location.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my camera?,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my contacts list.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my call logs.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the nearby devices?,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need biometrics access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke biometrics access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant call logs permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my SMS messages.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke SMS messages access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding call logs.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke calendar access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the background location?,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested SMS messages access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my storage and files.,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my location services.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my storage and files.,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke phone state access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding calendar.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my nearby devices.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need contacts list access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need SMS messages access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant camera permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing phone state permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need storage and files access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my location services.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my biometrics.,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding storage and files.,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding nearby devices.,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing camera permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my microphone?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the SMS messages?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my storage and files?,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested camera access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my call logs.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant location services permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my SMS messages?,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my phone state.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my phone state.,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing contacts list permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my biometrics.,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding contacts list.,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing call logs permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the call logs?,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my calendar.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my nearby devices.,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested location services access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my background location.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my SMS messages.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which applications can secretly access my nearby devices?,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke background location access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested contacts list access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need camera access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke camera access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any malicious apps are abusing my phone state.,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my call logs.,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested calendar access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my location services.,3,Permission Auditor,"permission_type,risk_level",N/A
+List all apps that have requested nearby devices access.,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this specific app really need background location access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke location services access for background apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing biometrics permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my nearby devices.,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the phone state?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what applications are allowed to use my background location.,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me a list of applications utilizing storage and files permissions.,3,Permission Auditor,"permission_type,risk_level",N/A
+Review the risk level of apps that use my camera.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant SMS messages permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit all app permissions on my phone regarding SMS messages.,3,Permission Auditor,"permission_type,risk_level",N/A
+Scan for dangerous apps using my location services.,3,Permission Auditor,"permission_type,risk_level",N/A
+Is it safe to grant contacts list permission to social media apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps on my device have access to the microphone?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps have microphone access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check what permissions my apps have,3,Permission Auditor,"permission_type,risk_level",N/A
+Does this app need camera access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Audit app permissions on my phone,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can access my location?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps have storage access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Do I need to grant this app microphone permissions?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any app has access to my contacts,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can read my SMS messages?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps have call log access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Should I give this app location permission?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check which apps have internet access,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can access my clipboard?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps have permission to read my calendar?,3,Permission Auditor,"permission_type,risk_level",N/A
+Review app permissions,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps are accessing my camera?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check dangerous app permissions,3,Permission Auditor,"permission_type,risk_level",N/A
+Are my apps requesting too many permissions?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can access my phone's ID?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check permission risk assessment,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can access my phone's location?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me apps with dangerous permissions,3,Permission Auditor,"permission_type,risk_level",N/A
+Which social media apps are tracking me?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any app can modify my contacts,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps have permission to send SMS?,3,Permission Auditor,"permission_type,risk_level",N/A
+Are my banking apps requesting too much?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check apps that can access my files,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can make phone calls?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show all permissions for a specific app,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps are tracking my location history?,3,Permission Auditor,"permission_type,risk_level",N/A
+Can I revoke permissions from apps?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps request background activity?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check for apps with mic and camera access,3,Permission Auditor,"permission_type,risk_level",N/A
+Are there any permission conflicts?,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can access my email?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check if any app can access my biometrics,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps are requesting root access?,3,Permission Auditor,"permission_type,risk_level",N/A
+Show me all installed apps and their permissions,3,Permission Auditor,"permission_type,risk_level",N/A
+Which apps can modify system settings?,3,Permission Auditor,"permission_type,risk_level",N/A
+Check for overprivileged apps,3,Permission Auditor,"permission_type,risk_level",N/A
+Do I have any critical security patches pending installation for my device?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date for my device?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now for my device?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation right now?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough right now?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure for my device?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough for my device?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now?,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits for my device?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks for my device?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings system-wise?,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws right now?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly.,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly right now?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings.,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device right now?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities.,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities for my device?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device for my device?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised right now?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws for my device?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date right now?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Do I have any critical security patches pending installation on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks right now?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure right now?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on for my device?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws on my smartphone?,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised for my device?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits right now?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings for my device?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities right now?,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone right now?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws.,4,Device Checklist,"os_version,root_status",N/A
+Is my smartphone currently rooted or compromised system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode or USB debugging enabled on my device system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Identify any misconfigurations in my device settings right now?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone fully secure right now right now?,4,Device Checklist,"os_version,root_status",N/A
+Is my lock screen setup secure enough?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Is my mobile device exposed to known firmware exploits on this Android phone?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date.,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Scan my device for configuration vulnerabilities on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Check if my Android operating system is up to date on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure.,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone for my device?,4,Device Checklist,"os_version,root_status",N/A
+Does my phone pass basic security posture checks?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on on my tablet?,4,Device Checklist,"os_version,root_status",N/A
+Are there any dangerous system settings turned on right now?,4,Device Checklist,"os_version,root_status",N/A
+Verify that my device's firmware is authentic and secure on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+What is the overall security score of my phone on my mobile?,4,Device Checklist,"os_version,root_status",N/A
+Check if biometric authentication is enabled properly for my device?,4,Device Checklist,"os_version,root_status",N/A
+Check my device health for potential security flaws system-wise?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone secure?,4,Device Checklist,"os_version,root_status",N/A
+Check if my device is up to date,4,Device Checklist,"os_version,root_status",N/A
+Do I have security patches pending?,4,Device Checklist,"os_version,root_status",N/A
+Is my phone rooted?,4,Device Checklist,"os_version,root_status",N/A
+Is developer mode enabled?,4,Device Checklist,"os_version,root_status",N/A
+Do I have screen lock enabled?,4,Device Checklist,"os_version,root_status",N/A
+Is my device encrypted?,4,Device Checklist,"os_version,root_status",N/A
+Should I enable two-factor authentication?,4,Device Checklist,"os_version,root_status",N/A
+Check if phone OS is latest,4,Device Checklist,"os_version,root_status",N/A
+Is my device vulnerable to malware?,4,Device Checklist,"os_version,root_status",N/A
+Do I have security updates available?,4,Device Checklist,"os_version,root_status",N/A
+Is my bootloader unlocked?,4,Device Checklist,"os_version,root_status",N/A
+Check if USB debugging is enabled,4,Device Checklist,"os_version,root_status",N/A
+Is my device using latest security patch?,4,Device Checklist,"os_version,root_status",N/A
+Should I enable device encryption?,4,Device Checklist,"os_version,root_status",N/A
+Check overall device security,4,Device Checklist,"os_version,root_status",N/A
+Is my phone's bootloader secure?,4,Device Checklist,"os_version,root_status",N/A
+Check for security vulnerabilities,4,Device Checklist,"os_version,root_status",N/A
+Is my device factory reset protection enabled?,4,Device Checklist,"os_version,root_status",N/A
+Check device security status,4,Device Checklist,"os_version,root_status",N/A
+What's my device security score?,4,Device Checklist,"os_version,root_status",N/A
+Check all security updates available,4,Device Checklist,"os_version,root_status",N/A
+Is my device protected from malware?,4,Device Checklist,"os_version,root_status",N/A
+What security features does my phone have?,4,Device Checklist,"os_version,root_status",N/A
+Check if my device has all latest patches,4,Device Checklist,"os_version,root_status",N/A
+Is my phone vulnerable to known exploits?,4,Device Checklist,"os_version,root_status",N/A
+Check my device against CVE databases,4,Device Checklist,"os_version,root_status",N/A
+What's my Android security patch level?,4,Device Checklist,"os_version,root_status",N/A
+Is my device running a stable OS version?,4,Device Checklist,"os_version,root_status",N/A
+Check if my device has the latest OS,4,Device Checklist,"os_version,root_status",N/A
+Is my screen lock secure enough?,4,Device Checklist,"os_version,root_status",N/A
+What type of screen lock should I use?,4,Device Checklist,"os_version,root_status",N/A
+Is biometric authentication available?,4,Device Checklist,"os_version,root_status",N/A
+Check if my device supports encrypted storage,4,Device Checklist,"os_version,root_status",N/A
+Is my device backup encrypted?,4,Device Checklist,"os_version,root_status",N/A
+Check for obsolete Android version,4,Device Checklist,"os_version,root_status",N/A
+Is my device at end-of-life support?,4,Device Checklist,"os_version,root_status",N/A
+What security vulnerabilities exist on my phone?,4,Device Checklist,"os_version,root_status",N/A
+Check if my device manufacturer still supports it,4,Device Checklist,"os_version,root_status",N/A
+Is my device vulnerable to privilege escalation?,4,Device Checklist,"os_version,root_status",N/A
+Are you an AI? please?,5,General Chat,N/A,"Yes I am! I'm SafeScan AI, your personal mobile security assistant. How can I help you stay secure today?"
+Tell me about yourself please,5,General Chat,N/A,"I'm SafeScan AI, a security assistant built to help you scan WiFi networks, check SSL certificates, detect data breaches, audit app permissions, and keep your device secure!"
+Are you online? please?,5,General Chat,N/A,Yes I'm online and ready to help! What security concern can I assist you with today?
+"Hey, can you help me?",5,General Chat,N/A,"Absolutely! I'm here to help. You can ask me about WiFi security, SSL certificates, data breaches, app permissions, and much more!"
+Goodbye friend,5,General Chat,N/A,Goodbye! Stay safe out there and keep your device secure!
+What is your name? today?,5,General Chat,N/A,"I'm SafeScan AI, your mobile security assistant. Nice to meet you!"
+Nice to meet you please,5,General Chat,N/A,Nice to meet you too! I'm SafeScan AI. Feel free to ask me anything about your mobile security!
+Thanks for the help today,5,General Chat,N/A,Happy to help! Your security is my priority. Come back anytime you need assistance!
+Good evening buddy,5,General Chat,N/A,Good evening! Hope you're having a safe and secure night. How can I assist you?
+Are you a robot?,5,General Chat,N/A,"I'm an AI assistant, not exactly a robot! I'm SafeScan AI, here to help you with all your mobile security needs."
+Who created you? friend?,5,General Chat,N/A,I was created as part of the SafeScan mobile security application to help users stay protected. How can I help you today?
+Hey SafeScan please,5,General Chat,N/A,Hey there! SafeScan AI at your service. What security task can I help you with?
+Yo! today,5,General Chat,N/A,Yo! SafeScan AI here and ready to go. What security check can I run for you?
+What can you do? buddy?,5,General Chat,N/A,"I can check your WiFi security, validate SSL certificates, look up data breaches, audit app permissions, check your device security, and generate security reports!"
+Yo! assistant,5,General Chat,N/A,Yo! What security task are we tackling today?
+See you later buddy,5,General Chat,N/A,See you later! Remember to stay safe and keep your device protected!
+Is anyone there? today?,5,General Chat,N/A,Yes I'm here! SafeScan AI ready to assist you with your mobile security needs.
+Awesome chatbot please,5,General Chat,N/A,Thank you so much! I'm here whenever you need security help. What can I do for you?
+Can you talk to me? buddy?,5,General Chat,N/A,Of course! I'm SafeScan AI and I'm always here to chat and help with your security needs!
+How does this chatbot work? buddy?,5,General Chat,N/A,Just ask me anything related to your mobile security! I understand your questions and run the right security checks for you automatically.
+See you later,5,General Chat,N/A,Take care! Come back whenever you need a security check!
+Awesome chatbot buddy,5,General Chat,N/A,Thanks! I try my best to keep you secure. Anything I can help you with right now?
+How are you doing today? assistant?,5,General Chat,N/A,I'm doing great and ready to help! How about you? Any security concerns I can take care of?
+Goodbye today,5,General Chat,N/A,Goodbye! Stay safe and keep your device secure!
+Bye assistant,5,General Chat,N/A,Bye! Don't forget to stay safe online!
+Hello chatbot! please,5,General Chat,N/A,Hello! I'm SafeScan AI your mobile security assistant. How can I help you today?
+Is anyone there? buddy?,5,General Chat,N/A,I'm right here! SafeScan AI ready and waiting to help you with your security needs.
+How are you doing today? today?,5,General Chat,N/A,"Doing great thank you! Ready to scan, check, and secure whatever you need. What can I help with?"
+Good evening please,5,General Chat,N/A,Good evening! SafeScan AI here. How can I help keep you secure tonight?
+Can you assist me with something?,5,General Chat,N/A,"Of course! I can help with WiFi security, SSL validation, breach lookup, permission auditing and much more. What do you need?"
+Tell me about yourself buddy,5,General Chat,N/A,"I'm SafeScan AI, your dedicated mobile security assistant. I help you detect threats, scan networks, check certificates, and keep your digital life secure!"
+Goodbye assistant,5,General Chat,N/A,Goodbye! Stay protected and come back whenever you need a security check!
+Are you an AI?,5,General Chat,N/A,"Yes I am! I'm SafeScan AI, your personal mobile security assistant. What can I help you with?"
+How are you doing today?,5,General Chat,N/A,I'm doing great and fully operational! Ready to help with any security concerns you have.
+Are you an AI? friend?,5,General Chat,N/A,"Yes! I'm SafeScan AI, an intelligent security assistant here to help protect your mobile device."
+See you later assistant,5,General Chat,N/A,See you later! Stay safe and keep those security checks running!
+You are very smart buddy,5,General Chat,N/A,Thank you so much! I try my best to keep you secure. Anything else I can help with?
+See you later friend,5,General Chat,N/A,Take care friend! Come back anytime for a security check!
+What's up? friend?,5,General Chat,N/A,"Not much, just here keeping your device secure! What can I do for you today?"
+You are very smart please,5,General Chat,N/A,That's very kind of you! I'm here to make security simple and easy for you. How can I help?
+See you later today,5,General Chat,N/A,See you! Stay safe out there!
+Yo! please,5,General Chat,N/A,Yo! SafeScan AI here. What security scan can I run for you today?
+Tell me about yourself friend,5,General Chat,N/A,"I'm SafeScan AI! I help you stay secure by scanning WiFi networks, checking SSL certificates, finding data breaches, and auditing your app permissions."
+Thanks for the help assistant,5,General Chat,N/A,Always happy to help! Your security is what I'm here for. Come back anytime!
+See you later please,5,General Chat,N/A,Take care! Your security is always my priority. See you next time!
+What can you do? assistant?,5,General Chat,N/A,"I can scan WiFi networks, validate SSL certificates, check for data breaches, audit app permissions, review device security, and help you navigate the app!"
+Are you online?,5,General Chat,N/A,Yes I'm online and fully operational! What security task can I help you with?
+Are you an AI? today?,5,General Chat,N/A,Yes I am! SafeScan AI at your service. How can I help you stay secure?
+Thank you please,5,General Chat,N/A,You're welcome! Always here to keep you safe. Don't hesitate to ask if you need anything!
+What's up? please?,5,General Chat,N/A,Just here keeping your mobile secure! What can I help you with today?
+"Hey, can you help me? friend?",5,General Chat,N/A,Of course I can! Tell me what you need and I'll get right on it!
+Goodbye please,5,General Chat,N/A,Goodbye! Stay safe and keep your device protected!
+Hey SafeScan friend,5,General Chat,N/A,Hey! SafeScan AI here and ready to help. What security concern can I assist you with?
+Are you an AI? assistant?,5,General Chat,N/A,"Yes! I'm SafeScan AI, your intelligent mobile security assistant. What can I do for you?"
+Hi there today,5,General Chat,N/A,Hi there! SafeScan AI here. What security check can I run for you today?
+Thank you buddy,5,General Chat,N/A,You're very welcome! Keeping you secure is what I do best. Anything else you need?
+Hi there buddy,5,General Chat,N/A,Hi! Great to see you. What security task can I help you with today?
+Thanks for the help please,5,General Chat,N/A,My pleasure! Come back anytime you need a security check. Stay safe!
+Are you online? today?,5,General Chat,N/A,Yes fully online and ready! What can I help you with?
+Thanks for the help buddy,5,General Chat,N/A,Happy to help anytime! Your security is always my top priority!
+Who created you?,5,General Chat,N/A,"I was built as the AI assistant for SafeScan, a mobile security application designed to help users protect their devices and data."
+You are very smart assistant,5,General Chat,N/A,Thank you! I do my best to understand your security needs. What can I help you with?
+How are you doing today? friend?,5,General Chat,N/A,Doing great and ready to help! Any security concerns I can tackle for you today?
+Can you assist me with something? buddy?,5,General Chat,N/A,Absolutely! Just tell me what you need and I'll take care of it right away!
+Good morning today,5,General Chat,N/A,Good morning! Hope you're starting your day safely. What security check can I run for you?
+Good morning please,5,General Chat,N/A,Good morning! SafeScan AI here and ready to keep your day secure. How can I help?
+Nice to meet you buddy,5,General Chat,N/A,Nice to meet you too! I'm SafeScan AI. Feel free to ask me anything about mobile security!
+Yo! friend,5,General Chat,N/A,Yo! What are we securing today? I'm ready to help!
+Are you an AI? buddy?,5,General Chat,N/A,"Yes I am! SafeScan AI, your personal security assistant. What can I do for you?"
+What's up? today?,5,General Chat,N/A,Just keeping your device safe! What security concern can I help with today?
+Good evening,5,General Chat,N/A,Good evening! SafeScan AI here. How can I assist you tonight?
+Awesome chatbot,5,General Chat,N/A,Thank you! I'm here to make mobile security easy for everyone. What can I help you with?
+Good evening today,5,General Chat,N/A,Good evening! Ready to help with any security checks you need tonight.
+Hello chatbot! today,5,General Chat,N/A,Hello! SafeScan AI here and ready to go. What security task can I help you with?
+Tell me about yourself assistant,5,General Chat,N/A,"I'm SafeScan AI, an intelligent security assistant that helps you scan networks, check certificates, find breaches, and audit app permissions all in one place!"
+What can you do? friend?,5,General Chat,N/A,"I can help with WiFi security scans, SSL certificate validation, data breach lookup, app permission auditing, device security checks, and security report generation!"
+"Hey, can you help me? assistant?",5,General Chat,N/A,Of course! I'm SafeScan AI and helping you is exactly what I'm here for. What do you need?
+Nice to meet you friend,5,General Chat,N/A,Nice to meet you! I'm SafeScan AI. Ask me anything about keeping your mobile device secure!
+Good evening assistant,5,General Chat,N/A,Good evening! SafeScan AI at your service. What can I help you secure tonight?
+What is your name? assistant?,5,General Chat,N/A,My name is SafeScan AI! I'm your personal mobile security assistant. How can I help?
+Can you talk to me? today?,5,General Chat,N/A,Always! I'm SafeScan AI and I'm here to chat and help with all your security needs.
+Are you a robot? friend?,5,General Chat,N/A,"Not exactly a robot! I'm an AI assistant called SafeScan AI, here to help protect your mobile device."
+Hi there please,5,General Chat,N/A,Hi there! SafeScan AI ready to help. What security concern can I assist you with?
+Good evening friend,5,General Chat,N/A,Good evening friend! Hope your night is going well. What security check can I run for you?
+Are you a robot? please?,5,General Chat,N/A,"I'm an AI, not a robot! SafeScan AI to be precise, your dedicated mobile security assistant."
+Awesome chatbot today,5,General Chat,N/A,Thank you! I appreciate the kind words. What security task can I help you with today?
+Can you talk to me? friend?,5,General Chat,N/A,Of course! I'm always here to help and chat. What's on your mind?
+What is your name? friend?,5,General Chat,N/A,"I'm SafeScan AI, your mobile security assistant! Great to meet you. How can I help?"
+Thanks for the help friend,5,General Chat,N/A,Always a pleasure! Stay safe and come back anytime you need a security check!
+Can you assist me with something? today?,5,General Chat,N/A,Absolutely! Tell me what you need and I'll get it done right away!
+Bye friend,5,General Chat,N/A,Bye! Take care and stay digitally safe out there!
+Good morning friend,5,General Chat,N/A,Good morning friend! Starting the day with a security check is always a good idea. How can I help?
+Bye please,5,General Chat,N/A,Goodbye! Stay safe and secure. Come back whenever you need help!
+Good morning buddy,5,General Chat,N/A,Good morning! SafeScan AI here ready to start your day securely. What can I help with?
+Who created you? please?,5,General Chat,N/A,I was created as the AI assistant for the SafeScan mobile security application. I'm here to help keep your device and data safe!
+Nice to meet you,5,General Chat,N/A,Nice to meet you! I'm SafeScan AI. Ask me anything about mobile security and I'll take care of it!
+How does this chatbot work? friend?,5,General Chat,N/A,"Just type your security question naturally and I'll understand what you need, run the right checks, and give you clear easy to understand results!"
+Thank you assistant,5,General Chat,N/A,You're very welcome! I'm here whenever you need security help. Stay safe!
+What's up? assistant?,5,General Chat,N/A,Just here keeping your mobile secure around the clock! What can I do for you?
+Hello chatbot! assistant,5,General Chat,N/A,Hello! SafeScan AI here and fully operational. What security task can I assist you with today?
+Hey SafeScan buddy,5,General Chat,N/A,Hey! SafeScan AI at your service. What are we checking today?
+Bye buddy,5,General Chat,N/A,Bye buddy! Stay safe and keep your device protected!
+Tell me about yourself today,5,General Chat,N/A,"I'm SafeScan AI! I use artificial intelligence to help you scan for security threats, check network safety, find data breaches, and protect your mobile device."
+"Hey, can you help me? please?",5,General Chat,N/A,Of course! That's exactly what I'm here for. What do you need help with?
+Tell me about yourself,5,General Chat,N/A,"I'm SafeScan AI, your intelligent mobile security assistant. I can scan WiFi networks, validate SSL certificates, check data breaches, audit app permissions, and keep your device secure!"
+Can you talk to me? please?,5,General Chat,N/A,Always happy to chat! I'm SafeScan AI. What security concerns can I help you with?
+Can you assist me with something? assistant?,5,General Chat,N/A,Absolutely! I'm SafeScan AI and assisting you is my purpose. What do you need?
+How does this chatbot work? assistant?,5,General Chat,N/A,"Ask me any security question in plain English and I'll automatically understand your intent, run the correct module, and explain the results in simple language!"
+What's up?,5,General Chat,N/A,Hey! Just here keeping your mobile secure. What security check can I run for you?
+Bye,5,General Chat,N/A,Goodbye! Stay safe and keep your device secure. See you next time!
+Can you assist me with something? friend?,5,General Chat,N/A,Of course! Tell me what you need and I'll take care of it immediately!
+Goodbye,5,General Chat,N/A,Goodbye! Stay safe out there and remember to keep your device protected!
+Are you online? buddy?,5,General Chat,N/A,Yes I'm online and ready to help! What security task can I assist you with?
+Is anyone there?,5,General Chat,N/A,Yes I'm here! SafeScan AI always on and ready to help with your mobile security needs.
+Is anyone there? friend?,5,General Chat,N/A,Right here! SafeScan AI ready and waiting. What do you need help with?
+Are you a robot? today?,5,General Chat,N/A,"I'm an AI assistant, not a robot! SafeScan AI here to help protect your digital life."
+What's up? buddy?,5,General Chat,N/A,"Not much, just keeping your device safe! What security concern can I help you with?"
+Hi there,5,General Chat,N/A,Hi! Welcome to SafeScan AI. I'm here to help with all your mobile security needs. What can I do for you?
+Goodbye buddy,5,General Chat,N/A,Goodbye buddy! Take care and stay safe online!
+You are very smart friend,5,General Chat,N/A,That means a lot! I'm here to make security easy and accessible for everyone. How can I help you?
+Hey SafeScan assistant,5,General Chat,N/A,Hey! SafeScan AI here and ready to assist. What security check shall we run?
+Are you a robot? assistant?,5,General Chat,N/A,I'm an AI assistant called SafeScan AI! Not quite a robot but definitely here to help keep you secure.
+Nice to meet you today,5,General Chat,N/A,"Nice to meet you! I'm SafeScan AI, always here to help you stay safe and secure!"
+Hi there friend,5,General Chat,N/A,Hi friend! SafeScan AI here. What security task can I help you with today?
+Thank you today,5,General Chat,N/A,You're welcome! Come back anytime you need help staying secure!
+Good morning,5,General Chat,N/A,Good morning! SafeScan AI here wishing you a safe and secure day. How can I help?
+Hello chatbot! buddy,5,General Chat,N/A,Hello! SafeScan AI here and ready to go. What shall we secure today?
+You are very smart,5,General Chat,N/A,Thank you so much! I'm just here to make mobile security simple for everyone. What can I help you with?
+How do I navigate to the permissions monitor?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the history log?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for settings page?,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the permissions monitor tab?,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the profile section in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the profile section page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the breach checker window interface?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the home button?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for permissions monitor?,6,Interface Questions,"screen_name,navigation",N/A
+How do I clear my chat screen?,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the settings page in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the dashboard in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the profile section tab?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for SSL validator tab?,6,Interface Questions,"screen_name,navigation",N/A
+Is there a help button on the dashboard?,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the profile section interface?,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the settings page tab?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the permissions monitor?,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the SSL validator tab tab?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the dashboard?,6,Interface Questions,"screen_name,navigation",N/A
+Where are the settings for the interface?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for profile section?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the breach checker window?,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the permissions monitor interface?,6,Interface Questions,"screen_name,navigation",N/A
+"The chat window is too small, can I change it?",6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the history log tab?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the WiFi scanner screen?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the settings page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I go back to the main menu?,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the breach checker window tab?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the permissions monitor page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the settings page page?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for dashboard?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the settings page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the WiFi scanner screen page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the WiFi scanner screen?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for WiFi scanner screen?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the history log page?,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the WiFi scanner screen tab?,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the SSL validator tab in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the history log in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the SSL validator tab?,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the permissions monitor in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the SSL validator tab interface?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the history log?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the SSL validator tab page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the dashboard?,6,Interface Questions,"screen_name,navigation",N/A
+Can you show me the dashboard tab?,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the WiFi scanner screen in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the profile section?,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the WiFi scanner screen interface?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for breach checker window?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the dashboard page?,6,Interface Questions,"screen_name,navigation",N/A
+Where is the button for history log?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the SSL validator tab?,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the dashboard interface?,6,Interface Questions,"screen_name,navigation",N/A
+How do I open the breach checker window page?,6,Interface Questions,"screen_name,navigation",N/A
+How do I switch dark mode on this screen?,6,Interface Questions,"screen_name,navigation",N/A
+I cannot find the breach checker window in the menu.,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the history log interface?,6,Interface Questions,"screen_name,navigation",N/A
+How do I navigate to the profile section?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I find the breach checker window?,6,Interface Questions,"screen_name,navigation",N/A
+How do I use the settings page interface?,6,Interface Questions,"screen_name,navigation",N/A
+Where can I view my historical security reports as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Where do the saved reports get stored on my phone right now.,7,Report Related,"export_format,report_type",N/A
+Is there a way to print my security check report right now.,7,Report Related,"export_format,report_type",N/A
+Generate a summary report of my device health offline.,7,Report Related,"export_format,report_type",N/A
+Generate a summary report of my device health to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Create a full report for my password breach status to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Can I clear my report history as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Can I get a PDF copy of my app permission audit for my records.,7,Report Related,"export_format,report_type",N/A
+How do I save the results of this WiFi scan to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+How do I save the results of this WiFi scan?,7,Report Related,"export_format,report_type",N/A
+Show me my previous scan history report for my records.,7,Report Related,"export_format,report_type",N/A
+Is there a way to print my security check report?,7,Report Related,"export_format,report_type",N/A
+Create a full report for my password breach status right now.,7,Report Related,"export_format,report_type",N/A
+Export everything into a comprehensive safety report to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Where can I view my historical security reports for my records.,7,Report Related,"export_format,report_type",N/A
+Show me my previous scan history report to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+How do I save the results of this WiFi scan for my records.,7,Report Related,"export_format,report_type",N/A
+Where can I view my historical security reports offline.,7,Report Related,"export_format,report_type",N/A
+Where is the download link for the vulnerability report as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Show me my previous scan history report offline.,7,Report Related,"export_format,report_type",N/A
+Can I clear my report history right now.,7,Report Related,"export_format,report_type",N/A
+Export everything into a comprehensive safety report as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Where is the download link for the vulnerability report to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Where do the saved reports get stored on my phone as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Where do the saved reports get stored on my phone for my records.,7,Report Related,"export_format,report_type",N/A
+Can I clear my report history for my records.,7,Report Related,"export_format,report_type",N/A
+Can I get a PDF copy of my app permission audit to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Where is the download link for the vulnerability report for my records.,7,Report Related,"export_format,report_type",N/A
+Generate a summary report of my device health.,7,Report Related,"export_format,report_type",N/A
+Can you email me the audit report to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Can you email me the audit report?,7,Report Related,"export_format,report_type",N/A
+Generate a summary report of my device health right now.,7,Report Related,"export_format,report_type",N/A
+Can I get a PDF copy of my app permission audit right now.,7,Report Related,"export_format,report_type",N/A
+Can I export the scan results to a CSV or PDF offline.,7,Report Related,"export_format,report_type",N/A
+How can I download my security report to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Is there a way to print my security check report for my records.,7,Report Related,"export_format,report_type",N/A
+How do I save the results of this WiFi scan offline.,7,Report Related,"export_format,report_type",N/A
+Where do the saved reports get stored on my phone?,7,Report Related,"export_format,report_type",N/A
+Is there a way to print my security check report to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Can I export the scan results to a CSV or PDF to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+How do I save the results of this WiFi scan as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Create a full report for my password breach status for my records.,7,Report Related,"export_format,report_type",N/A
+Is there a way to print my security check report as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Can I export the scan results to a CSV or PDF right now.,7,Report Related,"export_format,report_type",N/A
+Export everything into a comprehensive safety report.,7,Report Related,"export_format,report_type",N/A
+Is there a way to print my security check report offline.,7,Report Related,"export_format,report_type",N/A
+Generate a summary report of my device health for my records.,7,Report Related,"export_format,report_type",N/A
+Export everything into a comprehensive safety report for my records.,7,Report Related,"export_format,report_type",N/A
+Can I clear my report history to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+How can I download my security report?,7,Report Related,"export_format,report_type",N/A
+Can you email me the audit report right now.,7,Report Related,"export_format,report_type",N/A
+Where can I view my historical security reports?,7,Report Related,"export_format,report_type",N/A
+Where can I view my historical security reports right now.,7,Report Related,"export_format,report_type",N/A
+Can I export the scan results to a CSV or PDF?,7,Report Related,"export_format,report_type",N/A
+Export everything into a comprehensive safety report right now.,7,Report Related,"export_format,report_type",N/A
+Show me my previous scan history report.,7,Report Related,"export_format,report_type",N/A
+Can I clear my report history offline.,7,Report Related,"export_format,report_type",N/A
+Can you email me the audit report as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Where can I view my historical security reports to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Can I export the scan results to a CSV or PDF for my records.,7,Report Related,"export_format,report_type",N/A
+Can you email me the audit report for my records.,7,Report Related,"export_format,report_type",N/A
+Can I export the scan results to a CSV or PDF as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Can you email me the audit report offline.,7,Report Related,"export_format,report_type",N/A
+How can I download my security report offline.,7,Report Related,"export_format,report_type",N/A
+Create a full report for my password breach status.,7,Report Related,"export_format,report_type",N/A
+How can I download my security report as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Where is the download link for the vulnerability report?,7,Report Related,"export_format,report_type",N/A
+Can I clear my report history?,7,Report Related,"export_format,report_type",N/A
+How can I download my security report for my records.,7,Report Related,"export_format,report_type",N/A
+Can I get a PDF copy of my app permission audit as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Show me my previous scan history report as soon as possible.,7,Report Related,"export_format,report_type",N/A
+How do I save the results of this WiFi scan right now.,7,Report Related,"export_format,report_type",N/A
+Export everything into a comprehensive safety report offline.,7,Report Related,"export_format,report_type",N/A
+Show me my previous scan history report right now.,7,Report Related,"export_format,report_type",N/A
+Create a full report for my password breach status offline.,7,Report Related,"export_format,report_type",N/A
+Where do the saved reports get stored on my phone to show my IT admin.,7,Report Related,"export_format,report_type",N/A
+Generate a summary report of my device health as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Where do the saved reports get stored on my phone offline.,7,Report Related,"export_format,report_type",N/A
+Where is the download link for the vulnerability report right now.,7,Report Related,"export_format,report_type",N/A
+Where is the download link for the vulnerability report offline.,7,Report Related,"export_format,report_type",N/A
+Create a full report for my password breach status as soon as possible.,7,Report Related,"export_format,report_type",N/A
+Can I get a PDF copy of my app permission audit offline.,7,Report Related,"export_format,report_type",N/A
+How can I download my security report right now.,7,Report Related,"export_format,report_type",N/A
+Can I get a PDF copy of my app permission audit?,7,Report Related,"export_format,report_type",N/A
+How do cells divide in biology?,8,None,N/A,N/A
+"I need to know, what is the weather today in new york?",8,None,N/A,N/A
+"right now, how do i cook a perfect steak?",8,None,N/A,N/A
+"please tell me, how far is the moon from the earth?",8,None,N/A,N/A
+"please tell me, what is the weather today in new york?",8,None,N/A,N/A
+"please tell me, how do i learn how to play guitar?",8,None,N/A,N/A
+"please tell me, what is the recipe for chocolate chip cookies?",8,None,N/A,N/A
+"if you know, can you write a poem about autumn?",8,None,N/A,N/A
+"if you know, what is quantum computing in simple words?",8,None,N/A,N/A
+"if you know, how do cells divide in biology?",8,None,N/A,N/A
+Who won the last football world cup?,8,None,N/A,N/A
+How do I fix a leaky kitchen faucet?,8,None,N/A,N/A
+"please tell me, can you recommend a good movie?",8,None,N/A,N/A
+"please tell me, what is the capital city of australia?",8,None,N/A,N/A
+"can you explain?, how do cells divide in biology?",8,None,N/A,N/A
+"can you explain?, how do i learn how to play guitar?",8,None,N/A,N/A
+"I need to know, how do i learn how to play guitar?",8,None,N/A,N/A
+"I need to know, how do i fix a leaky kitchen faucet?",8,None,N/A,N/A
+How do I cook a perfect steak?,8,None,N/A,N/A
+"right now, how far is the moon from the earth?",8,None,N/A,N/A
+"please tell me, what is the stock market doing today?",8,None,N/A,N/A
+"can you explain?, can you write a poem about autumn?",8,None,N/A,N/A
+"I need to know, what is the capital city of australia?",8,None,N/A,N/A
+"if you know, how do i cook a perfect steak?",8,None,N/A,N/A
+Tell me a funny joke. - right now,8,None,N/A,N/A
+"if you know, how far is the moon from the earth?",8,None,N/A,N/A
+"right now, who won the last football world cup?",8,None,N/A,N/A
+"can you explain?, how far is the moon from the earth?",8,None,N/A,N/A
+"if you know, what is the recipe for chocolate chip cookies?",8,None,N/A,N/A
+Can you recommend a good movie?,8,None,N/A,N/A
+"right now, what is the weather today in new york?",8,None,N/A,N/A
+"right now, how do cells divide in biology?",8,None,N/A,N/A
+"can you explain?, how do i cook a perfect steak?",8,None,N/A,N/A
+"can you explain?, how do i fix a leaky kitchen faucet?",8,None,N/A,N/A
+Tell me a short story about a dragon.,8,None,N/A,N/A
+"can you explain?, what is the capital city of australia?",8,None,N/A,N/A
+"can you explain?, what is quantum computing in simple words?",8,None,N/A,N/A
+"right now, can you recommend a good movie?",8,None,N/A,N/A
+Tell me a short story about a dragon. - can you explain?,8,None,N/A,N/A
+"if you know, what is the stock market doing today?",8,None,N/A,N/A
+"please tell me, who won the last football world cup?",8,None,N/A,N/A
+"if you know, how do i learn how to play guitar?",8,None,N/A,N/A
+"right now, what is the recipe for chocolate chip cookies?",8,None,N/A,N/A
+"please tell me, how do i fix a leaky kitchen faucet?",8,None,N/A,N/A
+"I need to know, can you write a poem about autumn?",8,None,N/A,N/A
+What is quantum computing in simple words?,8,None,N/A,N/A
+Tell me a short story about a dragon. - right now,8,None,N/A,N/A
+"I need to know, can you recommend a good movie?",8,None,N/A,N/A
+Can you write a poem about autumn?,8,None,N/A,N/A
+"right now, how do i learn how to play guitar?",8,None,N/A,N/A
+"I need to know, what is the recipe for chocolate chip cookies?",8,None,N/A,N/A
+"I need to know, how do cells divide in biology?",8,None,N/A,N/A
+Tell me a short story about a dragon. - please tell me,8,None,N/A,N/A
+"please tell me, can you write a poem about autumn?",8,None,N/A,N/A
+"please tell me, what is quantum computing in simple words?",8,None,N/A,N/A
+"I need to know, what is quantum computing in simple words?",8,None,N/A,N/A
+What is the stock market doing today?,8,None,N/A,N/A
+"right now, how do i fix a leaky kitchen faucet?",8,None,N/A,N/A
+"I need to know, how do i cook a perfect steak?",8,None,N/A,N/A
+"if you know, what is the weather today in new york?",8,None,N/A,N/A
+Tell me a funny joke. - can you explain?,8,None,N/A,N/A
+"right now, what is the stock market doing today?",8,None,N/A,N/A
+"I need to know, what is the stock market doing today?",8,None,N/A,N/A
+What is the recipe for chocolate chip cookies?,8,None,N/A,N/A
+"if you know, what is the capital city of australia?",8,None,N/A,N/A
+Tell me a short story about a dragon. - if you know,8,None,N/A,N/A
+"can you explain?, what is the weather today in new york?",8,None,N/A,N/A
+"please tell me, how do cells divide in biology?",8,None,N/A,N/A
+"if you know, who won the last football world cup?",8,None,N/A,N/A
+Tell me a funny joke. - I need to know,8,None,N/A,N/A
+How do I learn how to play guitar?,8,None,N/A,N/A
+Tell me a short story about a dragon. - I need to know,8,None,N/A,N/A
+What is the weather today in New York?,8,None,N/A,N/A
+"I need to know, who won the last football world cup?",8,None,N/A,N/A
+How far is the moon from the earth?,8,None,N/A,N/A
+"I need to know, how far is the moon from the earth?",8,None,N/A,N/A
+Tell me a funny joke.,8,None,N/A,N/A
+"please tell me, how do i cook a perfect steak?",8,None,N/A,N/A
+Tell me a funny joke. - please tell me,8,None,N/A,N/A
+"right now, what is the capital city of australia?",8,None,N/A,N/A
+"can you explain?, what is the recipe for chocolate chip cookies?",8,None,N/A,N/A
+"can you explain?, what is the stock market doing today?",8,None,N/A,N/A
+"can you explain?, can you recommend a good movie?",8,None,N/A,N/A
+"if you know, can you recommend a good movie?",8,None,N/A,N/A
+"if you know, how do i fix a leaky kitchen faucet?",8,None,N/A,N/A
+"right now, can you write a poem about autumn?",8,None,N/A,N/A
+Tell me a funny joke. - if you know,8,None,N/A,N/A
+What is the capital city of Australia?,8,None,N/A,N/A
+"right now, what is quantum computing in simple words?",8,None,N/A,N/A
+"can you explain?, who won the last football world cup?",8,None,N/A,N/A
+How do I bake sourdough bread?,8,None,N/A,N/A
+What's the recipe for chocolate cake?,8,None,N/A,N/A
+How do I knit a sweater?,8,None,N/A,N/A
+What's the best way to grow tomatoes?,8,None,N/A,N/A
+Tell me about the weather in Paris,8,None,N/A,N/A
+What's the capital of France?,8,None,N/A,N/A
+How do I paint a landscape?,8,None,N/A,N/A
+What's the plot of Inception?,8,None,N/A,N/A
+How do I learn Python programming?,8,None,N/A,N/A
+What's the best restaurant near me?,8,None,N/A,N/A
+Tell me a joke,8,None,N/A,N/A
+What's the score of the last basketball game?,8,None,N/A,N/A
+How do I fix my car's engine?,8,None,N/A,N/A
+What's the best fitness routine?,8,None,N/A,N/A
+Can you recommend a good book?,8,None,N/A,N/A
+How do I learn to cook?,8,None,N/A,N/A
+What's the best video game right now?,8,None,N/A,N/A
+How do I lose weight?,8,None,N/A,N/A
+Tell me about space exploration,8,None,N/A,N/A
+What's the history of Rome?,8,None,N/A,N/A
+How do I meditate?,8,None,N/A,N/A
+What's the best way to travel?,8,None,N/A,N/A
+How do I write a novel?,8,None,N/A,N/A
+What's the meaning of life?,8,None,N/A,N/A
+How do I learn photography?,8,None,N/A,N/A
+Tell me about climate change,8,None,N/A,N/A
+How do I improve my public speaking?,8,None,N/A,N/A
+What's the best smartphone?,8,None,N/A,N/A
+How do I learn a new language?,8,None,N/A,N/A
+Tell me about ancient Egypt,8,None,N/A,N/A
+How do I cook pasta?,8,None,N/A,N/A
+What's the best laptop for gaming?,8,None,N/A,N/A
+Tell me about quantum physics,8,None,N/A,N/A
+How do I learn guitar?,8,None,N/A,N/A
+What's the best budget phone?,8,None,N/A,N/A
+How do I start a business?,8,None,N/A,N/A
+Tell me about ancient civilizations,8,None,N/A,N/A
+What's the best fitness app?,8,None,N/A,N/A
+How do I meditate effectively?,8,None,N/A,N/A
+What's the best coffee maker?,8,None,N/A,N/A
+Tell me about the solar system,8,None,N/A,N/A
+How do I learn to dance?,8,None,N/A,N/A
+What's the best car to buy?,8,None,N/A,N/A
+How do I improve my credit score?,8,None,N/A,N/A
+Tell me about famous artists,8,None,N/A,N/A
+How do I organize my home?,8,None,N/A,N/A
+What's the best streaming service?,8,None,N/A,N/A
+How do I start investing?,8,None,N/A,N/A
+Tell me about world history,8,None,N/A,N/A
+What's the best productivity tool?,8,None,N/A,N/A
