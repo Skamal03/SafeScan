@@ -6,6 +6,8 @@ import '../services/device_service.dart';
 import '../services/app_service.dart';
 import 'report_screen.dart';
 import 'login_screen.dart';
+import 'scan_history_screen.dart';
+import '../services/database_service.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -149,10 +151,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   GlowContainer(
                     child: Column(
                       children: [
-                        _menuTile('Export Security Logs', () {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(content: Text('Security logs exported successfully')),
-                          );
+                        _menuTile('View Scan History', () {
+                          Navigator.of(context).push(
+                             MaterialPageRoute(builder: (_) => const ScanHistoryScreen()),
+                           );
                         }),
                         const Divider(),
                         _menuTile('Purge Scan History', () {
@@ -161,12 +163,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             builder: (context) => AlertDialog(
                               backgroundColor: AppTheme.surface,
                               title: const Text('Purge History', style: TextStyle(color: AppTheme.danger)),
-                              content: const Text('Are you sure you want to delete all security logs?'),
+                              content: const Text('Are you sure you want to delete all security logs from Firestore?'),
                               actions: [
                                 TextButton(onPressed: () => Navigator.pop(context), child: const Text('Cancel')),
-                                OutlinedButton(onPressed: () {
+                                OutlinedButton(onPressed: () async {
                                   Navigator.pop(context);
-                                  ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Scan history purged')));
+                                  await DatabaseService().purgeHistory();
+                                  if (mounted) {
+                                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Scan history purged')));
+                                  }
                                 }, child: const Text('Delete', style: TextStyle(color: AppTheme.danger))),
                               ],
                             ),

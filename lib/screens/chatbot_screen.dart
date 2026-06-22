@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../services/safescan_service.dart';
+import '../services/ssl_service.dart';
+import '../services/device_service.dart';
+import '../services/database_service.dart';
 import 'wifi_screen.dart';
 import 'breach_screen.dart';
 import 'device_screen.dart';
 import 'ssl_screen.dart';
 import 'report_screen.dart';
 import 'permissions_screen.dart';
+import 'scan_history_screen.dart';
 
 class ChatbotScreen extends StatefulWidget {
   const ChatbotScreen({super.key});
@@ -27,6 +31,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   final TextEditingController _controller = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   final SafeScanService _service = SafeScanService();
+  final DatabaseService _dbService = DatabaseService();
   bool _isLoading = false;
 
   void _handleSend() async {
@@ -57,7 +62,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     _scrollToBottom();
   }
 
-  void _routeResult(Map<String, dynamic> result) {
+  void _routeResult(Map<String, dynamic> result) async {
     final String intent = result['intent'] ?? '';
     final String action = result['action'] ?? '';
     final Map<String, dynamic> params = (result['parameters'] as Map<String, dynamic>?) ?? {};
@@ -71,7 +76,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
       return;
     }
 
-    // ── Navigation intents — show message + navigate to screen ──
+    // ── Navigation & Background Actions ──
     switch (intent) {
       case 'wifi_check':
         _addBotMessage("Navigating to Wi-Fi Security Scan to check your network.");
@@ -80,27 +85,67 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
 
       case 'ssl_check':
         final domain = params['domain'];
-        final msg = domain != null
-            ? "Checking SSL certificate for $domain."
-            : "Opening SSL Certificate Checker.";
-        _addBotMessage(msg);
-        _navigateTo(const SSLScreen());
+        if (domain != null && domain.toString().isNotEmpty) {
+          _addBotMessage("🔍 Analyzing SSL certificate for $domain...");
+          try {
+            final report = await SslService.verifyCertificate(domain.toString());
+            final isSafe = report['isValid'] == true;
+            
+            _addBotMessage(
+              "✅ SSL Analysis for ${report['host']}:\n"
+              "• Status: ${isSafe ? 'SECURE' : 'EXPIRED/INVALID'}\n"
+              "• Issuer: ${report['issuer']}\n"
+              "• Expiry: ${report['expiry']}"
+            );
+
+            // Save to Firestore
+            await _dbService.saveReport(
+              type: 'SSL Certificate Check',
+              status: isSafe ? 'SAFE' : 'CRITICAL',
+              summary: "${report['host']} is ${isSafe ? 'secure' : 'unsafe'}.",
+              details: report,
+            );
+          } catch (e) {
+            _addBotMessage("❌ I couldn't verify the SSL for $domain. Please check the URL.");
+          }
+        } else {
+          _addBotMessage("Opening SSL Certificate Checker.");
+          _navigateTo(const SSLScreen());
+        }
         break;
 
       case 'breach_lookup':
         final credential = params['credential'];
-        final tab = params['tab'] ?? 'email';
         final msg = credential != null
             ? "Checking if $credential was exposed in a data breach."
             : "Opening Data Leak Checker.";
         _addBotMessage(msg);
-        // Pass tab to BreachScreen if it supports it, otherwise just navigate
         _navigateTo(const BreachScreen());
         break;
 
       case 'device_check':
-        _addBotMessage("Running a Device Health Check on your phone.");
-        _navigateTo(const DeviceScreen());
+        _addBotMessage("🔍 Running a quick Device Health Check...");
+        try {
+          final audit = await DeviceService.getFullDeviceAudit();
+          final isSafe = !audit['isRooted'] && !audit['isDevMode'];
+          
+          _addBotMessage(
+            "📱 Device Health Report:\n"
+            "• Model: ${audit['model']}\n"
+            "• Rooted: ${audit['isRooted'] ? 'YES (CRITICAL)' : 'NO'}\n"
+            "• Developer Mode: ${audit['isDevMode'] ? 'ENABLED' : 'DISABLED'}\n"
+            "• Result: ${isSafe ? 'HEALTHY' : 'RISKY'}"
+          );
+
+          await _dbService.saveReport(
+            type: 'Device Health Audit',
+            status: isSafe ? 'SAFE' : 'WARNING',
+            summary: "Device ${audit['model']} is ${isSafe ? 'secure' : 'potentially at risk'}.",
+            details: audit,
+          );
+        } catch (e) {
+          _addBotMessage("❌ Failed to perform device audit.");
+        }
         break;
 
       case 'permission_audit':
@@ -109,8 +154,8 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
         break;
 
       case 'report_action':
-        _addBotMessage("Opening your Scan History. Tap the menu icon on the top left.");
-        _navigateTo(const ReportScreen());
+        _addBotMessage("Opening your Scan History...");
+        _navigateTo(const ScanHistoryScreen());
         break;
 
       default:

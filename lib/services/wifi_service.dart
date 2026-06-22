@@ -5,23 +5,28 @@ import '../models/wifi_model.dart';
 class WifiService {
   // --- 1. SCANNING LOGIC ---
   static Future<List<WiFiAccessPoint>> scanNearbyNetworks() async {
-    // Check if we can start scan (Hardware status)
-    final canStartStatus = await WiFiScan.instance.canStartScan();
-    if (canStartStatus != CanStartScan.yes) {
-      if (canStartStatus == CanStartScan.failed) {
-        throw Exception('HARDWARE_THROTTLED: WAIT_60S');
-      } else {
-        throw Exception('HW_STATUS: $canStartStatus');
+    try {
+      // Check if we can start scan (Hardware status)
+      final canStartStatus = await WiFiScan.instance.canStartScan();
+      if (canStartStatus != CanStartScan.yes) {
+        if (canStartStatus == CanStartScan.failed) {
+          throw Exception('HARDWARE_THROTTLED: PLEASE_WAIT_A_MINUTE');
+        } else {
+          throw Exception('WIFI_NOT_SUPPORTED: $canStartStatus');
+        }
       }
+
+      // Request actual scan
+      final isScanStarted = await WiFiScan.instance.startScan();
+      if (!isScanStarted) throw Exception('SCAN_REQUEST_REJECTED');
+
+      // Wait for hardware to populate results
+      await Future.delayed(const Duration(seconds: 1));
+      return await WiFiScan.instance.getScannedResults();
+    } catch (e) {
+      print("Wi-Fi Scan Error: $e");
+      rethrow;
     }
-
-    // Request actual scan
-    final isScanStarted = await WiFiScan.instance.startScan();
-    if (!isScanStarted) throw Exception('SCAN_REQUEST_REJECTED');
-
-    // Wait for hardware to populate results
-    await Future.delayed(const Duration(seconds: 1));
-    return await WiFiScan.instance.getScannedResults();
   }
 
   // --- 2. PERMISSION CHECK LOGIC ---
@@ -40,7 +45,6 @@ class WifiService {
     List<String> threats = [];
     String status = "secure";
 
-    // A. Encryption Audit
     final caps = ap.capabilities.toUpperCase();
     String encType = "OPEN";
     
@@ -59,14 +63,12 @@ class WifiService {
       threats.add("OPEN_NETWORK: NO_ENCRYPTION_DETECTED");
     }
 
-    // B. SSID Phishing Check
     final ssid = ap.ssid.toUpperCase();
     if (ssid.contains("FREE") || ssid.contains("PUBLIC") || ssid.contains("GUEST")) {
       score -= 15;
       threats.add("SUSPICIOUS_SSID: POTENTIAL_PHISHING_TRAP");
     }
 
-    // C. Signal Anomaly
     if (ap.level > -30) {
       score -= 10;
       threats.add("SIGNAL_ANOMALY: UNUSUALLY_STRONG_PROXIMITY");

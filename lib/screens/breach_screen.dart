@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../widgets/common_widgets.dart';
 import '../services/breach_service.dart';
+import '../services/database_service.dart';
 
 class BreachScreen extends StatefulWidget {
   const BreachScreen({super.key});
@@ -32,17 +33,31 @@ class _BreachScreenState extends State<BreachScreen> {
         _error = '';
       });
       try {
-        final emailResult = await BreachService.checkEmailBreach(_controller.text);
-        final passwordResult = await BreachService.checkPasswordBreach(_controller.text);
+        // ONLY run the relevant search to avoid unnecessary network calls
+        Map<String, dynamic> result;
+        if (_searchType == 0) {
+          result = await BreachService.checkEmailBreach(_controller.text);
+        } else {
+          result = await BreachService.checkPasswordBreach(_controller.text);
+        }
         
+        // Save to History (Don't await, let it run in background)
+        DatabaseService().saveReport(
+          type: 'Data Breach Check',
+          status: result['breached'] ? 'CRITICAL' : 'SAFE',
+          summary: "${_searchType == 0 ? 'Email' : 'Password'} check for ${_controller.text.substring(0, 3)}...: ${result['breached'] ? 'Leaked' : 'Secure'}",
+          details: result,
+        ).catchError((e) => print("Firestore Error: $e"));
+
         setState(() {
-          _result = _searchType == 0 ? emailResult : passwordResult;
+          _result = result;
           _isChecking = false;
         });
       } catch (e) {
+        print("Breach Search Error: $e");
         setState(() {
           _isChecking = false;
-          _error = 'Search failed. Please try again.';
+          _error = 'Search failed. Check your internet connection.';
         });
       }
     }

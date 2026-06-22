@@ -18,8 +18,10 @@ dependencies:
   safe_device: ^1.1.4
   flutter_device_apps: ^0.7.0
   crypto: ^3.0.3
-  firebase_core: ^4.9.0
-  firebase_auth: ^6.5.1
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.4.2
+  cloud_firestore: ^5.6.1
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:

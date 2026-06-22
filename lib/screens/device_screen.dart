@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_theme.dart';
 import '../widgets/common_widgets.dart';
 import '../services/device_service.dart';
+import '../services/database_service.dart';
 
 class DeviceScreen extends StatefulWidget {
   const DeviceScreen({super.key});
@@ -18,6 +19,19 @@ class _DeviceScreenState extends State<DeviceScreen> {
     setState(() => _isScanning = true);
     try {
       final data = await DeviceService.getFullDeviceAudit();
+      
+      int score = 100;
+      if (data['isRooted']) score -= 40;
+      if (data['isDevMode']) score -= 20;
+
+      // Save to History (Don't await)
+      DatabaseService().saveReport(
+        type: 'Device Health Audit',
+        status: score > 80 ? 'SAFE' : (score > 50 ? 'WARNING' : 'CRITICAL'),
+        summary: "Device ${data['model']} health score is $score%.",
+        details: data,
+      ).catchError((e) => print("Firestore Error: $e"));
+
       setState(() {
         _auditData = data;
         _isScanning = false;
